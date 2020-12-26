@@ -1,0 +1,34 @@
+# Misc 
+.*cache
+*.log
+cache/*
+backup
+_files
+log
+log/**/*
+.monitor
+Forwardfile
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# dependencies
+/node_modules
+
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+
+# SASS
+*.sassc
+
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
